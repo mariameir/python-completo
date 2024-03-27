@@ -5,3 +5,9 @@
 
 print(1 + 1)
 print('a' + 'b')
+
+# converter para inteiro
+
+b = int('1')
+print(b)
+print(bool(''))
