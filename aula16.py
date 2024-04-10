@@ -1,6 +1,11 @@
 # if   / elif   else  / else
 # se   / se não se    / se não
 
-raio = float(input('Raio: '))
-area = 3.14159 * (raio ** 2)
-print(f'A={area:.2f}')
+entrada = input("Você quer 'entrar' ou 'sair'? ").lower()
+
+if entrada == 'entrar':
+    print('Você escolheu entrar')
+elif entrada == 'sair':
+    print('Você escolheu sair')
+else:
+    print('Escolha invalida')
